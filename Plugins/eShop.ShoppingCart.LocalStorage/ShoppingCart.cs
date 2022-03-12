@@ -80,10 +80,9 @@ public class ShoppingCart : IShoppingCart
 
     private async Task<Order> GetOrder()
     {
-        Order order = null;
-
         var strOder = await _jsRuntime.InvokeAsync<string>("localStorage.getItem", cstrShoppingCart);
 
+        Order order;
         if (!string.IsNullOrWhiteSpace(strOder) && strOder.ToLower() != "null")
         {
             order = JsonConvert.DeserializeObject<Order>(strOder);

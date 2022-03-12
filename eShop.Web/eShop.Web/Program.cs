@@ -1,6 +1,10 @@
 ﻿using eShop.DataStore;
+using eShop.ShoppingCart.LocalStorage;
 using eShop.UseCases.PluginInterfaces.DataStore;
+using eShop.UseCases.PluginInterfaces.UI;
 using eShop.UseCases.SearchProduct;
+using eShop.UseCases.ShoppingCart;
+using eShop.UseCases.ShoppingCart.Interfaces;
 using eShop.UseCases.ViewProduct;
 using eShop.UseCases.ViewProduct.Interfaces;
 using eShop.Web.Data;
@@ -14,8 +18,13 @@ builder.Services.AddSingleton<WeatherForecastService>();
 
 builder.Services.AddSingleton<IProductRepository, ProductRepository>();
 
+builder.Services.AddScoped<IShoppingCart, ShoppingCart>();
+
 builder.Services.AddTransient<IViewProduct, ViewProduct>();
 builder.Services.AddTransient<ISearchProduct, SearchProduct>();
+builder.Services.AddTransient<IAddProductToCart, AddProductToCart>();
+builder.Services.AddTransient<IViewShoppingCart, ViewShoppingCart>();
+
 
 var app = builder.Build();
 

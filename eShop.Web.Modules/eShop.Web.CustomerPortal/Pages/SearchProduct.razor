@@ -1,3 +1,4 @@
+@page "/"
 @page "/products"
 
 @inject ISearchProduct searchProduct
@@ -9,32 +10,20 @@
 
 <br/>
 
-<table class="table">
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Brand</th>
-        <th>Price</th>
-    </tr>
-    </thead>
-    <tbody>
     @if (_products != null && _products.Count() > 0)
     {
-        @foreach (var product in _products)
-        {
-            <ProductItemComponent Product="product"/>
-        }
+        <div class="row">
+
+            @foreach (var product in _products)
+            {
+                <ProductCardComponent Product="@product"/>
+            }
+        </div>
     }
     else
     {
-        <tr>
-            <td colspan="3">
-                Cannot find products
-            </td>
-        </tr>
+        <text> Cannot find products</text>
     }
-    </tbody>
-</table>
 
 @code
 {

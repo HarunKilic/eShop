@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\eShop.Web.Modules\eShop.Web.CustomerPortal\eShop.Web.CustomerPortal.csproj" />
     <ProjectReference Include="..\..\Plugins\eShop.DataStore\eShop.DataStore.csproj" />
+    <ProjectReference Include="..\..\Plugins\eShop.ShoppingCart.LocalStorage\eShop.ShoppingCart.LocalStorage.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,27 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Web", "eShop.Web\eShop.Web.csproj", "{79D3949A-44AE-4D60-B8DD-93B1FA1B0663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Web", "eShop.Web\eShop.Web.csproj", "{79D3949A-44AE-4D60-B8DD-93B1FA1B0663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Core", "..\eShop.Core\eShop.Core.csproj", "{3056071A-460C-41C7-8A51-0354F645E27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Core", "..\eShop.Core\eShop.Core.csproj", "{3056071A-460C-41C7-8A51-0354F645E27E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.UseCases", "..\eShop.UseCases\eShop.UseCases.csproj", "{1DD9E3FC-5E74-4451-B761-1C922C9DC2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.UseCases", "..\eShop.UseCases\eShop.UseCases.csproj", "{1DD9E3FC-5E74-4451-B761-1C922C9DC2DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{7E7D8D20-5A50-42DA-A5B2-938085E4988F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.DataStore", "..\Plugins\eShop.DataStore\eShop.DataStore.csproj", "{A87C9348-8E11-4003-97D1-3D37006B98B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.DataStore", "..\Plugins\eShop.DataStore\eShop.DataStore.csproj", "{A87C9348-8E11-4003-97D1-3D37006B98B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eShop.Web.Modules", "eShop.Web.Modules", "{5D78755A-6F4D-420D-BD3B-D95FFE1DDCEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Web.AdminPortal", "..\eShop.Web.Modules\eShop.Web.AdminPortal\eShop.Web.AdminPortal.csproj", "{1389ADD5-164A-4768-A3B9-71CD8D68E183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Web.AdminPortal", "..\eShop.Web.Modules\eShop.Web.AdminPortal\eShop.Web.AdminPortal.csproj", "{1389ADD5-164A-4768-A3B9-71CD8D68E183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Web.CustomerPortal", "..\eShop.Web.Modules\eShop.Web.CustomerPortal\eShop.Web.CustomerPortal.csproj", "{906088A8-564E-4EDF-BC1F-7F3AB3A62838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Web.CustomerPortal", "..\eShop.Web.Modules\eShop.Web.CustomerPortal\eShop.Web.CustomerPortal.csproj", "{906088A8-564E-4EDF-BC1F-7F3AB3A62838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Web.Common", "..\eShop.Web.Modules\eShop.Web.Common\eShop.Web.Common.csproj", "{F8FDBEFE-B626-4DF9-A2F8-93BEBD4C1C15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Web.Common", "..\eShop.Web.Modules\eShop.Web.Common\eShop.Web.Common.csproj", "{F8FDBEFE-B626-4DF9-A2F8-93BEBD4C1C15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.ShoppingCart.LocalStorage", "..\Plugins\eShop.ShoppingCart.LocalStorage\eShop.ShoppingCart.LocalStorage.csproj", "{1063D357-22FE-4B4C-8371-203B23C6DD37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.ShoppingCart.LocalStorage", "..\Plugins\eShop.ShoppingCart.LocalStorage\eShop.ShoppingCart.LocalStorage.csproj", "{1063D357-22FE-4B4C-8371-203B23C6DD37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,14 +65,14 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {334AC39A-F850-4091-BBB1-AD9D598F0CB8}
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A87C9348-8E11-4003-97D1-3D37006B98B1} = {7E7D8D20-5A50-42DA-A5B2-938085E4988F}
 		{1389ADD5-164A-4768-A3B9-71CD8D68E183} = {5D78755A-6F4D-420D-BD3B-D95FFE1DDCEC}
 		{906088A8-564E-4EDF-BC1F-7F3AB3A62838} = {5D78755A-6F4D-420D-BD3B-D95FFE1DDCEC}
 		{F8FDBEFE-B626-4DF9-A2F8-93BEBD4C1C15} = {5D78755A-6F4D-420D-BD3B-D95FFE1DDCEC}
 		{1063D357-22FE-4B4C-8371-203B23C6DD37} = {7E7D8D20-5A50-42DA-A5B2-938085E4988F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {334AC39A-F850-4091-BBB1-AD9D598F0CB8}
 	EndGlobalSection
 EndGlobal

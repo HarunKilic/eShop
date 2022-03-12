@@ -13,7 +13,7 @@ public class ProductRepository : IProductRepository
         {
             new()
             {
-                Id = 495, Brand = "maybelline", Name = "Maybelline Face Studio Master Hi-Light Light Booster Bronzer",
+                ProductId = 495, Brand = "maybelline", Name = "Maybelline Face Studio Master Hi-Light Light Booster Bronzer",
                 Price = 14.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/991799d3e70b8856686979f8ff6dcfe0_ra,w158,h184_pa,w158,h184.png",
@@ -22,7 +22,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 488, Brand = "maybelline", Name = "Maybelline Fit Me Bronzer", Price = 10.29,
+                ProductId = 488, Brand = "maybelline", Name = "Maybelline Fit Me Bronzer", Price = 10.29,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/d4f7d82b4858c622bb3c1cef07b9d850_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -30,7 +30,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 477, Brand = "maybelline", Name = "Maybelline Facestudio Master Contour Kit", Price = 15.99,
+                ProductId = 477, Brand = "maybelline", Name = "Maybelline Facestudio Master Contour Kit", Price = 15.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/4f731de249cbd4cb819ea7f5f4cfb5c3_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -38,7 +38,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 468, Brand = "maybelline", Name = "Maybelline Face Studio Master Hi-Light Light Booster Blush",
+                ProductId = 468, Brand = "maybelline", Name = "Maybelline Face Studio Master Hi-Light Light Booster Blush",
                 Price = 14.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/4621032a92cb428ad640c105b944b39c_ra,w158,h184_pa,w158,h184.png",
@@ -47,7 +47,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 439, Brand = "maybelline", Name = "Maybelline Fit Me Blush", Price = 10.29,
+                ProductId = 439, Brand = "maybelline", Name = "Maybelline Fit Me Blush", Price = 10.29,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/53d5f825461117c0d96946e1029510b0_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -56,7 +56,7 @@ public class ProductRepository : IProductRepository
 
             new()
             {
-                Id = 414, Brand = "maybelline", Name = "Maybelline Dream Bouncy Blush", Price = 11.99,
+                ProductId = 414, Brand = "maybelline", Name = "Maybelline Dream Bouncy Blush", Price = 11.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/51eacb9efebbaee39399e65ffe3d9416_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -64,7 +64,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 380, Brand = "maybelline", Name = "Maybelline Fit Me Shine-Free Foundation Stick", Price = 10.99,
+                ProductId = 380, Brand = "maybelline", Name = "Maybelline Fit Me Shine-Free Foundation Stick", Price = 10.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/d04e7c2ed65dabe1dca4eed9aa268e95_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -72,7 +72,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 379, Brand = "maybelline", Name = "Maybelline Dream Matte Mousse Foundation", Price = 14.79,
+                ProductId = 379, Brand = "maybelline", Name = "Maybelline Dream Matte Mousse Foundation", Price = 14.79,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/029889b345c76a70e8bb978b73ed1a87_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -80,7 +80,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 366, Brand = "maybelline", Name = "Maybelline Mineral Power Natural Perfecting Powder Foundation",
+                ProductId = 366, Brand = "maybelline", Name = "Maybelline Mineral Power Natural Perfecting Powder Foundation",
                 Price = 14.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/c77ad2da76259cfd67a9a9432f635bfb_ra,w158,h184_pa,w158,h184.png",
@@ -89,23 +89,23 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 354, Brand = "maybelline", Name = "Maybelline Dream Velvet Foundation", Price = 18.49,
+                ProductId = 354, Brand = "maybelline", Name = "Maybelline Dream Velvet Foundation", Price = 18.49,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/24517c6c81c92eda31cd32b6327c1298_ra,w158,h184_pa,w158,h184.png",
                 Description =
-                    "This Maybelline Dream Velvet Foundation is a refreshing gel-whipped foundation that leaves complexion perfected and smooth with a velvety, soft-matte finish. Skin stays hydrated for 12 hours. Features:Maybelline’s first hydrating matte foundation for 100% velvet-smooth perfectionUnique gel-whipped formulaIdeal for normal to combination skin, medium coverage For best results apply Maybelline Dream Velvet Foundation using Maybelline Dream Blender"
+                    "This Maybelline Dream Velvet Foundation is a refreshing gel-whipped foundation that leaves complexion perfected and smooth with a velvety, soft-matte finish. Skin stays hydrated for 12 hours. Features:Maybelline’s first hydrating matte foundation for 100% velvet-smooth perfectionUnique gel-whipped formulaProductIdeal for normal to combination skin, medium coverage For best results apply Maybelline Dream Velvet Foundation using Maybelline Dream Blender"
             },
             new()
             {
-                Id = 353, Brand = "maybelline", Name = "Maybelline Superstay Better Skin Foundation", Price = 14.99,
+                ProductId = 353, Brand = "maybelline", Name = "Maybelline Superstay Better Skin Foundation", Price = 14.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/c7d967ef502ecd79ab7ab466c4952d82_ra,w158,h184_pa,w158,h184.png",
                 Description =
-                    "The Maybelline Superstay Better Skin Foundation reduces the appearance of spots, bumps, dullness and redness to give you brighter, smoother and more even skin. Features:Longwear that improves skin every minute you're in it: brighter, smoother and more even.With micro-flex technology and the antioxidant power of Actyl-C.Ideal for sensitive skin. Good for all skin types. Medium to full coverageHow to Apply: Apply evenly to your face and blend with your fingers. "
+                    "The Maybelline Superstay Better Skin Foundation reduces the appearance of spots, bumps, dullness and redness to give you brighter, smoother and more even skin. Features:Longwear that improves skin every minute you're in it: brighter, smoother and more even.With micro-flex technology and the antioxidant power of Actyl-C.ProductIdeal for sensitive skin. Good for all skin types. Medium to full coverageHow to Apply: Apply evenly to your face and blend with your fingers. "
             },
             new()
             {
-                Id = 339, Brand = "maybelline", Name = "Maybelline Dream Wonder Liquid Touch Foundation", Price = 14.99,
+                ProductId = 339, Brand = "maybelline", Name = "Maybelline Dream Wonder Liquid Touch Foundation", Price = 14.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/ccb99ad6ac7f31a2a73454bdbda01d99_ra,w158,h184_pa,w158,h184.jpeg",
                 Description =
@@ -113,7 +113,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 321, Brand = "maybelline", Name = "Maybelline Dream Liquid Mousse", Price = 14.79,
+                ProductId = 321, Brand = "maybelline", Name = "Maybelline Dream Liquid Mousse", Price = 14.79,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/1ca6a4a442b9aa6b5f3d94da77d8846c_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -121,7 +121,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 320, Brand = "maybelline", Name = "Maybelline FIT ME! Matte + Poreless Foundation", Price = 10.99,
+                ProductId = 320, Brand = "maybelline", Name = "Maybelline FIT ME! Matte + Poreless Foundation", Price = 10.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/257993e12625cc45a72ec03636ffa5c5_ra,w158,h184_pa,w158,h184.jpg",
                 Description =
@@ -129,7 +129,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 317, Brand = "maybelline", Name = "Maybelline Fit Me Foundation with SPF", Price = 10.99,
+                ProductId = 317, Brand = "maybelline", Name = "Maybelline Fit Me Foundation with SPF", Price = 10.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/eccb88d484b8c929fd349b0995a5dba2_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -137,7 +137,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 309, Brand = "maybelline", Name = "Maybelline Expert Wear Eye Shadow Quad", Price = 8.99,
+                ProductId = 309, Brand = "maybelline", Name = "Maybelline Expert Wear Eye Shadow Quad", Price = 8.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/c924006882e8e313d445a3a5394e4729_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -145,7 +145,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 307, Brand = "maybelline", Name = "Maybelline Eyestudio Color Tattoo Concentrated Crayon",
+                ProductId = 307, Brand = "maybelline", Name = "Maybelline Eyestudio Color Tattoo Concentrated Crayon",
                 Price = 10.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/3f9f894b56e0616e44c5ee01dea45217_ra,w158,h184_pa,w158,h184.png",
@@ -154,7 +154,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 295, Brand = "maybelline", Name = "Maybelline The Nudes Eye Shadow Palette", Price = 17.99,
+                ProductId = 295, Brand = "maybelline", Name = "Maybelline The Nudes Eye Shadow Palette", Price = 17.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/201350fd3e173307ade44520dc87d8fb_ra,w158,h184_pa,w158,h184.png",
                 Description =
@@ -162,7 +162,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 291, Brand = "maybelline",
+                ProductId = 291, Brand = "maybelline",
                 Name = "Maybelline Eye Studio Color Tattoo 24HR Cream Gel Shadow Leather", Price = 8.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/cf21d194ab14ee3c527d02682c358a7a_ra,w158,h184_pa,w158,h184.png",
@@ -171,7 +171,7 @@ public class ProductRepository : IProductRepository
             },
             new()
             {
-                Id = 286, Brand = "maybelline", Name = "Maybelline The Nudes Eyeshadow Palette in The Blushed Nudes",
+                ProductId = 286, Brand = "maybelline", Name = "Maybelline The Nudes Eyeshadow Palette in The Blushed Nudes",
                 Price = 17.99,
                 ImageLink =
                     "https://d3t32hsnjxo7q6.cloudfront.net/i/49d98e112e77d2a9a0c8fad28df89a1e_ra,w158,h184_pa,w158,h184.png",
@@ -190,6 +190,6 @@ public class ProductRepository : IProductRepository
 
     public Product GetProduct(int id)
     {
-        return products.FirstOrDefault(x => x.Id == id);
+        return products.FirstOrDefault(x => x.ProductId == id);
     }
 }
